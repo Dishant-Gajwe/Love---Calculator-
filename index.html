@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+</head>
+<body>
+
+    
+    <section>
+        <h2>Love-Calculator</h2>
+
+        <input id="name1" type="text" placeholder="Your Name" autocomplete="off">
+
+          <div class="main">
+              
+              <i class="material-icons">favorite</i>
+              
+          </div>
+
+          <input id="name2" type="text" placeholder="Lover Name" autocomplete="off">
+
+          <button onclick="init()"> Calculate </button>
+
+          
+          <div class="score">
+              Score : <span id="score">0</span>
+            </div>
+            <h3 onclick="reset()">Reset</h3>
+    </section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

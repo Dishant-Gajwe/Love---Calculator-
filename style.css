@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(heart\ image.jpg) no-repeat center center/cover;
+    color: rgb(13, 13, 13);
+}
+
+
+section{
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+h2{
+    color: rgb(241, 117, 117);
+    text-align: center;
+    background-color: rgb(55, 55, 55);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 15px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+input{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+input::placeholder{
+    color: black;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+   font-size: 3rem !important; 
+   text-align: center;
+   color: rgb(0, 0, 0);
+}
+
+.score{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+h3{
+    width: 90px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    margin-left: 75px;
+    cursor: pointer;
+}
