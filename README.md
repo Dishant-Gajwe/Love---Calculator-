@@ -2,19 +2,21 @@
 
 ## **_Overview_**
 
-#### This is a simple love calculator code that calculates the love compatibility between two people based on their names. It uses a basic algorithm to calculate the score and displays the result on the screen. It's includes a reset button to clear the names and start over.
+#### This code is a simple love calculator designed to determine the compatibility between two individuals based on their names. The algorithm employed is straightforward, providing a calculated score that reflects their potential compatibility. The results are displayed on the screen, offering users insights into their love match. Additionally, the code features a reset button, allowing users to easily clear the entered names and start the calculation afresh
 
 ## **_How it Works_**
 
-#### The code works by using a simple algorithm to calculate the love compatibility between two people based on their names. The algorithm works as follows:
+#### The code operates by employing a straightforward algorithm to gauge the love compatibility between two individuals, relying on their respective names. The algorithm unfolds in a series of steps:
 
 #### 1. Convert each name to lowercase.
-#### 2. Remove all spaces from each name.
-#### 3. Count the number of times each letter appears in both names.
-#### 4. Calculate the sum of the products of the letter counts.
-#### 5. Multiply the sum by 100 to get the love score.
+#### 2. Eliminate all spaces from each name.
+#### 3. Tally the frequency of each letter in both names.
+#### 4. Compute the sum of the products of these letter counts.
+#### 5. Multiply the resultant sum by 100 to yield the love score.
 
-#### The love score is then displayed on the screen.
+####  The calculated love score is subsequently showcased on the screen, providing users with an indication of their compatibility based on the entered names.
+
+
 
 https://github.com/Dishant-Gajwe/Love---Calculator-/assets/152062055/0c608c9b-34bc-4db3-88ca-359171415033
 
