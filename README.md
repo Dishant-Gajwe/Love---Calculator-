@@ -2,11 +2,11 @@
 
 ## **_Overview_**
 
-#### This is a simple love calculator web app that calculates the love compatibility between two people based on their names. It uses a basic algorithm to calculate the score and displays the result on the screen. It's includes a reset button to clear the names and start over.
+#### This is a simple love calculator code that calculates the love compatibility between two people based on their names. It uses a basic algorithm to calculate the score and displays the result on the screen. It's includes a reset button to clear the names and start over.
 
 ## **_How it Works_**
 
-#### The app works by using a simple algorithm to calculate the love compatibility between two people based on their names. The algorithm works as follows:
+#### The code works by using a simple algorithm to calculate the love compatibility between two people based on their names. The algorithm works as follows:
 
 #### 1. Convert each name to lowercase.
 #### 2. Remove all spaces from each name.
