@@ -1,4 +1,4 @@
-# **Love-Calculator ❤️**
+# <span style="color:blue"> **Love-Calculator ❤️** </span>
 
 ## **_Overview_**
 
